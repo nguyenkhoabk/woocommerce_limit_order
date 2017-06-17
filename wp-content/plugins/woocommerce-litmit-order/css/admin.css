@@ -1,0 +1,298 @@
+/*
+ *  #Form Style
+ *  #Switch button ios
+ *  #DatePicker
+ *  #Range Time Slider
+ *  #Setting Page
+ *  #User Setting Page
+ */
+
+/*  Form Style
+==================================================
+*/
+
+.mlo-container .wlo-field-description {
+	font-style: italic;
+	font-size: 13px;
+	margin: 0px 0 15px;
+	color: #666;
+    line-height: 25px;
+}
+.mlo-container input {
+    margin-right: 5px;
+}
+.wlo-rows {
+	/*margin-bottom: 5px;*/
+}
+.multi-row {
+    margin-bottom: 10px;
+}
+.wlo-sub-option {
+    margin: 10px 0px 0px;
+}
+.wlo-list-roles-container,
+.wlo-list-users-container {
+    margin: 10px 0px 25px;
+    position: relative;
+}
+
+.wlo-message,
+.wlo-range-times {
+    min-height: 80px;
+    width: 100%;
+}
+
+.wlo-list-roles-container input[type=search],
+.wlo-list-users-container input[type=search] {
+    box-shadow: none;
+}
+
+ .mlo-hide {
+    display: none !important;
+}
+
+.mlo-left {
+    float: left;
+}
+
+.mlo-right {
+    float: right;
+}
+
+.mlo-clear {
+    clear: both;
+}
+.wlo-advance-container {
+    margin-bottom: 35px;
+}
+/*	DatePicker
+====================================================
+*/
+#wlo-date-picker .datepick {
+	width: 190px !important;
+}
+#wlo-date-picker {
+    margin-bottom: 5px;
+}
+.wlo-selected-dates {
+	margin-top: 10px;
+	width: 100%;
+}
+/*  Range Time Slider
+==================================================
+*/
+#wlo-time-range p {
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    color:#333;
+}
+.ui-slider-horizontal {
+    height: 8px;
+    background: #D7D7D7;
+    border: 1px solid #BABABA;
+    box-shadow: 0 1px 0 #FFF, 0 1px 0 #CFCFCF inset;
+    clear: both;
+    margin: 8px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: -1px;
+    height: 100%;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    height: 8px;
+    font-size: .7em;
+    display: block;
+    border: 1px solid #5BA8E1;
+    box-shadow: 0 1px 0 #AAD6F6 inset;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    background: #81B8F3;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #A0D4F5), color-stop(100%, #81B8F3));
+    background-image: -webkit-linear-gradient(top, #A0D4F5, #81B8F3);
+    background-image: -moz-linear-gradient(top, #A0D4F5, #81B8F3);
+    background-image: -o-linear-gradient(top, #A0D4F5, #81B8F3);
+    background-image: linear-gradient(top, #A0D4F5, #81B8F3);
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 50%;
+    background: #F9FBFA;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #C7CED6), color-stop(100%, #F9FBFA));
+    background-image: -webkit-linear-gradient(top, #C7CED6, #F9FBFA);
+    background-image: -moz-linear-gradient(top, #C7CED6, #F9FBFA);
+    background-image: -o-linear-gradient(top, #C7CED6, #F9FBFA);
+    background-image: linear-gradient(top, #C7CED6, #F9FBFA);
+    width: 22px;
+    height: 22px;
+    -webkit-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset;
+    -moz-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset;
+    -webkit-transition: box-shadow .3s;
+    -moz-transition: box-shadow .3s;
+    -o-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 22px;
+    height: 22px;
+    cursor: default;
+    border: none;
+    cursor: pointer;
+}
+.ui-slider .ui-slider-handle:after {
+    content:"";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -4px;
+    left: 50%;
+    margin-left: -4px;
+    background: #30A2D2;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 #FFF;
+    -moz-box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 white;
+    box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 #FFF;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.5em;
+    margin-left: -.6em;
+}
+.ui-slider a:focus {
+    outline:none;
+}
+
+#wlo-slider-range {
+  width: 90%;
+}
+#wlo-time-range {
+  width: 400px;
+}
+
+/*  Setting Page
+==================================================
+*/
+.nav-tab-wrapper {
+    border-bottom: 1px solid #ccc;
+}
+.wlo-statistic-nav {
+    margin-bottom: 15px;
+}
+
+/* User Setting Page
+==================================================
+*/
+.wlo-roles-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wlo-roles-table td.name,
+.wlo-roles-table td.number-times {
+    padding-left: 0px;
+}
+.wlo-roles-table tr:nth-child(odd) td {
+    background: #f9f9f9;
+}
+.wlo-roles-table input[type='number'] {
+    width: 40%;
+}
+table.wlo-roles-table {
+    display: table;
+    width: 100%;
+}
+table.wlo-roles-table thead, table.wlo-roles-table tbody {
+    float: left;
+    width: 100%;
+}
+table.wlo-roles-table tbody {
+    overflow: auto;
+    height: 290px;
+}
+table.wlo-roles-table tr {
+    width: 100%;
+    display: table;
+    text-align: left;
+}
+table.wlo-roles-table th,
+table.wlo-roles-table td {
+    width: 35%;
+}
+table.wlo-roles-table td:first-child,
+table.wlo-roles-table th:first-child {
+    width: 5%;
+}
+table.wlo-roles-table td:last-child {
+    padding-left: 10px;
+}
+
+/* Limit Product Category
+=====================================================
+*/
+#list-limit-product-category-rule th {
+    padding-left: 10px;
+}
+#list-limit-product-category-rule .apply-rule {
+    width: 3%;
+}
+#list-limit-product-category-rule .rule-name {
+    width: 10%;
+}
+#list-limit-product-category-rule .cat {
+    width: 20%;
+}
+#list-limit-product-category-rule .quantity {
+    width: 5%;
+}
+#list-limit-product-category-rule .roles {
+    width: 20%;
+}
+#list-limit-product-category-rule .all-role {
+    text-align: center;
+    width: 5%;
+}
+#list-limit-product-category-rule .date-range {
+    width: 30%;
+}
+#list-limit-product-category-rule .date-range textarea {
+    width: 100%;
+}
+#list-limit-product-category-rule .action-button {
+    text-align: center;
+    width: 7%;
+}
+#list-limit-product-category-rule .action-button .btn-action {
+    width: 28px;
+    height: 28px;;
+}
+#list-limit-product-category-rule .select2-container {
+    width: 100% !important;
+}
+
+#list-limit-product-category-rule .select2-container .select2-search__field {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-add-rule {
+    background: #008ec2;
+    border-width: 1px;
+    color: #fff;
+}
